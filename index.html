@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charest="UTF-8" />
+    <meta http-equiv="X-UA-Campatible" >
+    <meta name="viewport" content="width=device">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" >
+</head>
+<body>
+ <div class="contact-form">
+    <p class="title">Reservation</p>
+
+    <form action="" method="post">
+        <div class="item">
+            <label class="label">Name</label>
+            <input type="text" class="inputs" name="name" required>
+        </div>
+
+        <div class="item">
+            <label class="label">Mail Adress</label>
+            <input type="email" class="inputs" name="email" required>
+        </div>
+
+        <div class="item">
+            <p class="label">Reservation</p>
+            <div class="inputs">
+                <input type="radio"  name="menu" id="A" valur="A"/><label for="A">A seats</label>
+                <input type="radio"  name="menu" id="B" valur="B"/><label for="B">B seats</label>
+                <input type="radio"  name="menu" id="C" valur="C"/><label for="C">C seats</label>
+            </div>
+
+        </div>
+        <div class="item">
+            <label class="label">Request</label>
+            <textarea class="inputs" placeholder="Request"></textarea>
+        </div>
+        <div class="buton-area">
+            <input type="reset" value="Cancel"/>
+            <input type="submit" value="Submit"/>
+        </div>
+    </form>
+
+ </div>
+</body>
+</html>
